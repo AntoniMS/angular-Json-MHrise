@@ -1,0 +1,25 @@
+@import "../../../../styles.scss";
+
+footer {
+  width: 100vw;
+  bottom: 0;
+  height: 40px;
+  margin-top: 20px;
+}
+
+  .footer-container {
+    font-size: 13px;
+    text-align: justify;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    &__creator {
+      color: $crawl;
+    }
+  }
+
+  .capcom {
+    color: whitesmoke;
+    font-size: 10px;
+  }
+

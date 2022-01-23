@@ -1,0 +1,6 @@
+<h2>Lugares</h2>
+<div *ngIf="locations.length" class="location-container">
+    <div *ngFor="let location of locations" class="location-container__card" style="background-image: url({{location.image}});" routerLink="{{location.id}}">
+        <h6>{{location.name}}</h6>
+    </div>
+</div>

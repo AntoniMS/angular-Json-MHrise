@@ -1,0 +1,8 @@
+<h2>Monstruos</h2>
+<div *ngIf="monsters.length" class="monster-container">
+    <div *ngFor="let monster of monsters" class="monster-container__card" style="background-image: url({{monster.image}});" routerLink="{{monster.id}}">
+
+        <h6 class="monster-title">{{monster.name}}</h6>
+      
+    </div>
+</div>

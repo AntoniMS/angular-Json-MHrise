@@ -1,0 +1,85 @@
+@import "../../../../../styles.scss";
+
+
+.monster-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  
+  h1 {
+    padding: 20px;
+  border-radius: 10px 10px 0px 0px;
+  color: $crawl;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: $transparent;
+  font-size: 1.1rem;
+  }
+
+  h3 {
+    text-indent: 50px;
+     padding-left: 80px;
+     padding-right: 80px;
+    font-size: 0.99rem;
+    color: rgb(255, 234, 234);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+    2px 2px 0px rgba(47, 11, 0, 0.568);
+    
+  }
+  &__card {
+    border: solid 2px $blue;
+    border-radius: 10px;
+    margin: 20px;
+    background-color:rgba(148, 0, 0, 0.246);
+    width: 50%;
+
+
+    img {
+     margin: 5%;
+      width: 40%;
+      transition: 0.3s;
+
+    }
+    img:hover {
+        margin: 2%;
+        width: 46.75%;
+        transition: 0.3s;
+    }
+    
+    p {
+      padding: 8px;
+      margin: 8px;
+      color: wheat;
+      text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 2px -2px 0 $primary-color,
+    2px 2px 0px rgba(47, 11, 0, 0.568);
+    }
+
+    .monster-weak {
+      display: flex;
+      flex-direction: row;
+      text-align: center;
+      align-items: center;
+      justify-content: space-evenly;
+      margin-bottom: 10px;
+    }
+    li {
+      padding: 8px;
+      margin: 8px;
+      color: wheat;
+      text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 3px -2px 0 $primary-color,
+    2px 2px 0px rgba(47, 11, 0, 0.568);
+    }
+  }
+}

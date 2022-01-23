@@ -1,0 +1,54 @@
+@import "../../../styles.scss";
+
+.gallery {
+  align-content: center;
+
+  text-align: center;
+
+  margin-bottom: 10px;
+  h2 {
+    padding: 10px;
+    margin: 60px;
+    padding:10px;
+    border-radius: 10px 10px 0px 0px;
+    color: goldenrod;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0px;
+    background: radial-gradient($transparent, rgba(85, 85, 87, 0));
+    font-size: 1.2rem;
+    text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+      -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+      2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+      -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+      2px 2px 0px rgba(206, 90, 55, 0.424);
+  }
+
+  img {
+    height: 220px;
+    border: 3px solid rgba(5, 5, 5, 0.582);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  img:hover {
+    height: 240px;
+    filter: saturate(160%);
+    transition: 0.5s;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  img {
+    height: 150px;
+    border: 3px solid rgba(95, 95, 95, 0);
+    transition: 0.5s;
+    cursor: pointer;
+  }
+
+  img:hover {
+    height: 190px;
+    filter: saturate(160%);
+    transition: 0.5s;
+  }
+}

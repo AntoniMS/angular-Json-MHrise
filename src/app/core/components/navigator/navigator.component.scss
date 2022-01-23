@@ -1,0 +1,40 @@
+@import "../../../../styles.scss";
+
+.navigator-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+ background: #010101;
+background: -webkit-linear-gradient(bottom, #330000b0, #240001);
+background: -moz-linear-gradient(bottom, #01010160, #292828a8);
+background: linear-gradient(to top, #01010100, #2a0001a9);
+  height: 10vh;
+  width: 100vw;
+
+  .navigator-list {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    max-width: 999px;
+
+    &__item {
+      padding: 10px;
+
+      &--link {
+        text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+    2px 2px 0px rgba(0, 0, 0, 0.424);
+        color: $crawl;
+        text-transform: uppercase;
+        font-weight: bold;
+
+        &:hover{
+            color: goldenrod;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+.image {
+    width: 280px;
+  align-items: center;
+  object-fit: contain;
+  -webkit-filter: drop-shadow(5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+  cursor: pointer;
+}
+
+.image:hover {
+  -webkit-filter: drop-shadow(8px 8px 9px #222);
+  filter: saturate(170%);
+  transition: 0.5s;
+}

@@ -1,0 +1,56 @@
+@import "../../../styles.scss";
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    padding: 20px;
+    width: 55%;
+    max-width: 500px;
+    transition: 0.4s;
+  }
+  img:hover {
+    margin: -14.35px;
+    max-width: 550px;
+    transition: 0.5s;
+  }
+
+  .paragraph {
+    width: 80%;
+    max-width: 800px;
+    padding: 20px;
+  }
+  p {
+    text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+      -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+      2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+      -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+      2px 2px 0px rgba(47, 11, 0, 0.568);
+    line-height: 1.8;
+    text-overflow: ellipsis;
+    margin: 10px;
+    font-weight: bold;
+    font-size: 18px;
+    border-radius: 49%;
+    background-color: rgba(173, 173, 173, 0.281);
+    color: goldenrod;
+    padding: 20px;
+    text-align: justify;
+    word-break: keep-all;
+    transition: 1s;
+    cursor: pointer;
+  }
+  p:hover {
+    background-color: rgba(100, 0, 83, 0.466);
+    transition: 1s;
+    color: #fdeea9;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .paragraph {
+    width: 98%;
+  }
+}

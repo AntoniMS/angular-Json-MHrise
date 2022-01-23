@@ -1,0 +1,71 @@
+@import "../../../styles.scss";
+
+h6 {
+  padding: 10px;
+  margin: 0px;
+  border-radius: 10px 10px 0px 0px;
+  color: $crawl;
+  text-transform: uppercase;
+  text-align: center;
+
+  background-color: $transparent;
+  font-size: 0.9rem;
+  text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+    2px 2px 0px rgba(206, 90, 55, 0.424);
+}
+
+h2 {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px 10px 0px 0px;
+  color: goldenrod;
+  text-transform: uppercase;
+  text-align: center;
+  background: radial-gradient($transparent, rgba(85, 85, 87, 0));
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+    2px 2px 0px rgba(206, 90, 55, 0.424);
+}
+
+.location-container {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  &__card {
+    border: solid 2px $blue;
+    border-radius: 10px;
+    margin: 25px;
+    width: 25%;
+    height: 190px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    background-color: rgba(132, 210, 255, 0.342);
+    transition: 0.5s;
+
+    &:hover {
+      box-shadow: 1px 1px 10px 5px rgba(112, 255, 183, 0.239);
+
+      margin-top: -10px;
+      border: solid 2px $crawl;
+      background-color: rgba(112, 0, 0, 0.609);
+      cursor: pointer;
+      height: 230px;
+
+      filter: saturate(250%);
+      transition: 0.5s;
+    }
+  }
+}

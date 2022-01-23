@@ -1,0 +1,9 @@
+<div *ngIf="location" class="location-container">
+  <div class="location-container__card">
+    <h1>{{ location.name }}</h1>
+    <img src="{{ location.image }}" alt="{{ location.name }}" />
+    <h3 class="location-description">{{ location.description }}</h3>
+    <h1>Mapa:</h1>
+    <img class="location-map" src="{{ location.map }}" alt="{{ location.map }}" />
+  </div>
+</div>

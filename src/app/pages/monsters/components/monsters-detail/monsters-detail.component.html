@@ -1,0 +1,23 @@
+<div *ngIf="monster" class="monster-container">
+  <div class="monster-container__card">
+    <h1>{{ monster.name }}</h1>
+    <img src="{{ monster.image }}" alt="{{ monster.name }}" />
+    <h3>{{ monster.description }}</h3>
+
+    <div class="monster-weak">
+        <div>
+      <p>Elemento: {{ monster.element }}</p>
+      <p>Débil a: {{ monster.weak }}</p>
+    </div>
+
+      <div *ngIf="monster.smash">
+        <p>Puntos débiles:</p>
+        <ul>
+          <li *ngFor="let damage of monster.smash">
+            {{ damage.part }} con golpes {{ damage.damage }}
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

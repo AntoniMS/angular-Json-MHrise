@@ -1,0 +1,73 @@
+@import "../../../../../styles.scss";
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+
+  h1 {
+    padding: 20px;
+    border-radius: 10px 10px 0px 0px;
+    color: $crawl;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: $transparent;
+    font-size: 1.1rem;
+  }
+
+  h3 {
+    padding: 8px;
+    margin: 8px;
+    text-indent: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    font-size: 0.89rem;
+    color: rgb(255, 234, 234);
+    text-transform: uppercase;
+    text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+      -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+      2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+      -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+      2px 2px 0px rgba(47, 11, 0, 0.568);
+  }
+  &__card {
+    box-shadow: 1px 1px 10px 5px  rgba(112, 255, 183, 0.239);
+    border: solid 2px $blue;
+    border-radius: 10px;
+    margin: 20px;
+    background-color: #ffbc9562;
+    width: 60%;
+
+    img {
+      border: 2px solid $crawl;
+      border-radius: 10px;
+      margin: 5%;
+      width: 70%;
+      max-width: 700px;
+      transition: 0.3s;
+    }
+    img:hover {
+      filter: saturate(200%);
+      transition: 0.5s;
+    }
+
+    .location-map {
+      img {
+        max-width: 700px;
+      }
+      border: 0px;
+    }
+
+    p {
+      padding: 8px;
+      margin: 8px;
+      color: rgba(255, 233, 192, 0.897);
+      text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
+        -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+        2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+        -2px 0px 0 $primary-color, 2px -2px 0 $primary-color,
+        2px 2px 0px rgba(47, 11, 0, 0.568);
+    }
+  }
+}
