@@ -34,16 +34,17 @@
     font-weight: 400;
     font-size: 0.88rem;
     border-radius: 49%;
-    background-color: rgba(173, 173, 173, 0.281);
+    background: radial-gradient(#75000050 30% , #002fff00,#00086400 );
     color: goldenrod;
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     word-break: keep-all;
     transition: 1s;
     cursor: pointer;
   }
+
   p:hover {
-    background-color: rgba(100, 0, 83, 0.466);
+    background: radial-gradient(#9e002f71 35%, #00086400, #00086400);
     transition: 1s;
     color: #ffe260;
   }
