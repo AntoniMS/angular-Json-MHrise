@@ -19,11 +19,12 @@
   }
 
   h3 {
-    text-indent: 50px;
-     padding-left: 80px;
-     padding-right: 80px;
-    font-size: 0.99rem;
-    color: rgb(255, 234, 234);
+    margin: 10px;
+    text-indent: 4px;
+     padding-left: 4px;
+     padding-right: 4px;
+    font-size: 0.89rem;
+    color: rgba(231, 215, 66, 0.829);
     text-transform: uppercase;
     text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
     -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
@@ -37,7 +38,8 @@
     border-radius: 10px;
     margin: 20px;
     background-color:rgba(148, 0, 0, 0.246);
-    width: 50%;
+    width: 85%;
+    max-width: 800px;
 
 
     img {
@@ -48,14 +50,15 @@
     }
     img:hover {
         margin: 2%;
-        width: 46.75%;
+        width: 46.85%;
         transition: 0.3s;
     }
     
     p {
       padding: 8px;
       margin: 8px;
-      color: wheat;
+      color: rgb(255, 182, 46);
+      text-transform: uppercase;
       text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
     -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
     2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
@@ -64,7 +67,9 @@
     }
 
     .monster-weak {
+      text-transform: uppercase;
       display: flex;
+      font-size: 0.7rem;
       flex-direction: row;
       text-align: center;
       align-items: center;

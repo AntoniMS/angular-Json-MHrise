@@ -8,7 +8,7 @@
 
   h1 {
     padding: 20px;
-    border-radius: 10px 10px 0px 0px;
+    border-radius: 10px 10px 3px 3px;
     color: $crawl;
     text-transform: uppercase;
     text-align: center;
@@ -17,34 +17,33 @@
   }
 
   h3 {
-    padding: 8px;
-    margin: 8px;
-    text-indent: 50px;
-    padding-left: 80px;
-    padding-right: 80px;
+    margin: 10px;
+    text-indent: 4px;
+     padding-left: 4px;
+     padding-right: 4px;
     font-size: 0.89rem;
-    color: rgb(255, 234, 234);
+    color: rgba(248, 234, 108, 0.979);
     text-transform: uppercase;
     text-shadow: 2px 2px 0 $primary-color, 2px -2px 0 $primary-color,
-      -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
-      2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
-      -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
-      2px 2px 0px rgba(47, 11, 0, 0.568);
+    -2px 2px 0 $primary-color, -2px -2px 0 $primary-color,
+    2px 0px 0 $primary-color, 0px 2px 0 $primary-color,
+    -2px 0px 0 $primary-color, 4px -2px 0 $primary-color,
+    2px 2px 0px rgba(47, 11, 0, 0.568);
   }
   &__card {
-    box-shadow: 1px 1px 10px 5px  rgba(112, 255, 183, 0.239);
     border: solid 2px $blue;
     border-radius: 10px;
     margin: 20px;
-    background-color: #ffbc9562;
-    width: 60%;
+    background-color:rgba(0, 101, 148, 0.329);
+    width: 85%;
+    max-width: 800px;;
 
     img {
       border: 2px solid $crawl;
       border-radius: 10px;
       margin: 5%;
       width: 70%;
-      max-width: 700px;
+      max-width: 500px;
       transition: 0.3s;
     }
     img:hover {
@@ -54,7 +53,8 @@
 
     .location-map {
       img {
-        max-width: 700px;
+        width: 70%;
+        max-width: 550px;
       }
       border: 0px;
     }

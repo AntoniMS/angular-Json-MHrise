@@ -3,22 +3,31 @@
 footer {
   width: 100vw;
   bottom: 0;
-  height: 40px;
-  margin-top: 20px;
+
+
 }
 
   .footer-container {
     font-size: 13px;
     text-align: justify;
     display: flex;
+    text-transform: uppercase;
+    
     flex-wrap: wrap;
     justify-content: space-evenly;
+
+    img {
+      margin-left: 20px;
+    
+      width:27px;
+    }
     &__creator {
       color: $crawl;
     }
   }
 
-  .capcom {
+  .footer-container__creator {
+    margin-left: 20px;
     color: whitesmoke;
     font-size: 10px;
   }
