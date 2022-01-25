@@ -14,7 +14,7 @@ export class AboutComponent implements OnInit {
       imageGallery: [
        
         {
-          src: "../../../assets/images/gallery/1.jpg",
+          src: "../../../assets/images/gallery/3.png",
           alt: "Foto de monsterHunterRise"
         },
         {
@@ -22,7 +22,7 @@ export class AboutComponent implements OnInit {
           alt: "Foto de monsterHunterRise"
         },
         {
-          src: "../../../assets/images/gallery/3.png",
+          src: "../../../assets/images/gallery/1.jpg",
           alt: "Foto de monsterHunterRise"
         },
         {
