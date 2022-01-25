@@ -1,8 +1,10 @@
 @import "../../../styles.scss";
 
-.home {
+.home-container{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
+  align-content: center;
   justify-content: center;
   align-items: center;
   img {
